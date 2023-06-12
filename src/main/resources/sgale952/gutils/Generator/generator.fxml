@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="405.0" maxWidth="670.0" minHeight="405.0" minWidth="670.0" prefHeight="405.0" prefWidth="670.0" style="-fx-background-color: FFFFFF;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sgale952.gutils.MainController">
+   <children>
+      <Button fx:id="aboutButton" layoutY="-8.0" mnemonicParsing="false" onAction="#aboutButtonHandler" prefHeight="107.0" prefWidth="670.0" style="-fx-background-color: #F29727; -fx-background-radius: 1;" text="Generator" textAlignment="CENTER" textFill="#f1f3f4">
+         <font>
+            <Font name="Verdana Bold" size="45.0" />
+         </font>
+      </Button>
+      <Button layoutX="257.0" layoutY="235.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="169.0" style="-fx-background-radius: 15; -fx-background-color: #79BAC1;">
+         <font>
+            <Font name="Arial" size="21.0" />
+         </font>
+         <effect>
+            <Shadow blurType="GAUSSIAN" height="50.68" radius="24.747500000000002" width="50.31">
+               <color>
+                  <Color opacity="0.7175572514533997" />
+               </color>
+            </Shadow>
+         </effect>
+      </Button>
+      <Button layoutX="251.0" layoutY="227.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="169.0" style="-fx-background-radius: 15; -fx-background-color: #A6D0DD;" text="artifacts">
+         <font>
+            <Font name="Arial" size="21.0" />
+         </font>
+      </Button>
+      <Button layoutX="257.0" layoutY="151.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="169.0" style="-fx-background-radius: 15; -fx-background-color: #79BAC1;">
+         <font>
+            <Font name="Arial" size="21.0" />
+         </font>
+         <effect>
+            <Shadow blurType="GAUSSIAN" height="51.05" radius="24.84" width="50.31">
+               <color>
+                  <Color opacity="0.7175572514533997" />
+               </color>
+            </Shadow>
+         </effect>
+      </Button>
+      <Button layoutX="251.0" layoutY="143.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="169.0" style="-fx-background-radius: 15; -fx-background-color: #A6D0DD;" text="teams">
+         <font>
+            <Font name="Arial" size="21.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="142.0" fitWidth="131.0" layoutX="539.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/Chongyun.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="282.0" layoutY="324.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="125.0" style="-fx-background-radius: 15; -fx-background-color: #79BAC1;">
+         <font>
+            <Font name="Arial" size="21.0" />
+         </font>
+         <effect>
+            <Shadow blurType="GAUSSIAN" height="50.68" radius="24.747500000000002" width="50.31">
+               <color>
+                  <Color opacity="0.7175572514533997" />
+               </color>
+            </Shadow>
+         </effect>
+      </Button>
+      <Button fx:id="menuGenButton" layoutX="276.0" layoutY="316.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="125.0" style="-fx-background-radius: 15; -fx-background-color: #FCC8D1;" text="menu">
+         <font>
+            <Font name="Arial" size="21.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

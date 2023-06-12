@@ -1,8 +1,6 @@
 package sgale952.gutils;
 
 import java.io.IOException;
-import java.net.URL;
-import java.util.ResourceBundle;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -13,8 +11,9 @@ import javafx.stage.Stage;
 public class MainController {
 
     @FXML
-    private Button aboutButton;
+    private Button aboutButton, calculatorButton, generatorButton;
 
+    //not work
     public void aboutButtonHandler() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("about.fxml"));
         Stage window = (Stage) aboutButton.getScene().getWindow();
