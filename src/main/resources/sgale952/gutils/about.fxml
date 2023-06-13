@@ -6,13 +6,8 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="405.0" maxWidth="670.0" minHeight="405.0" minWidth="670.0" prefHeight="405.0" prefWidth="670.0" style="-fx-background-color: #E06469;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sgale952.gutils.mainController">
+<AnchorPane maxHeight="405.0" maxWidth="670.0" minHeight="405.0" minWidth="670.0" prefHeight="405.0" prefWidth="670.0" style="-fx-background-color: #E06469;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sgale952.gutils.MainController">
    <children>
-      <Button fx:id="mainButton" layoutY="-8.0" mnemonicParsing="false" onAction="#aboutButtonHandler" prefHeight="107.0" prefWidth="670.0" style="-fx-background-color: #E06469; -fx-background-radius: 1;" text="GenshinUtils" textAlignment="CENTER" textFill="#f1f3f4" underline="true">
-         <font>
-            <Font name="Verdana Bold" size="45.0" />
-         </font>
-      </Button>
       <Button layoutX="259.0" layoutY="202.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="169.0" style="-fx-background-radius: 15; -fx-background-color: #A6D0DD;" text="on JavaFX">
          <font>
             <Font name="Arial" size="21.0" />
@@ -28,5 +23,10 @@
             <Image url="@Image/Ayaka.gif" />
          </image>
       </ImageView>
+      <Button fx:id="mainButton" layoutY="-8.0" mnemonicParsing="false" onAction="#mainButtonHandler" prefHeight="107.0" prefWidth="670.0" style="-fx-background-color: #E06469; -fx-background-radius: 1;" text="GenshinUtils" textAlignment="CENTER" textFill="#f1f3f4" underline="true">
+         <font>
+            <Font name="Verdana Bold" size="45.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

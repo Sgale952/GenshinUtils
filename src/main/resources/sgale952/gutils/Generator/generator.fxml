@@ -10,7 +10,7 @@
 
 <AnchorPane maxHeight="405.0" maxWidth="670.0" minHeight="405.0" minWidth="670.0" prefHeight="405.0" prefWidth="670.0" style="-fx-background-color: FFFFFF;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sgale952.gutils.MainController">
    <children>
-      <Button fx:id="aboutButton" layoutY="-8.0" mnemonicParsing="false" onAction="#aboutButtonHandler" prefHeight="107.0" prefWidth="670.0" style="-fx-background-color: #F29727; -fx-background-radius: 1;" text="Generator" textAlignment="CENTER" textFill="#f1f3f4">
+      <Button layoutY="-8.0" mnemonicParsing="false" prefHeight="107.0" prefWidth="670.0" style="-fx-background-color: #F29727; -fx-background-radius: 1;" text="Generator" textAlignment="CENTER" textFill="#f1f3f4">
          <font>
             <Font name="Verdana Bold" size="45.0" />
          </font>
@@ -66,7 +66,7 @@
             </Shadow>
          </effect>
       </Button>
-      <Button fx:id="menuGenButton" layoutX="276.0" layoutY="316.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="125.0" style="-fx-background-radius: 15; -fx-background-color: #FCC8D1;" text="menu">
+      <Button fx:id="menuGenButton" layoutX="276.0" layoutY="316.0" mnemonicParsing="false" onAction="#menuGenButtonHandler" prefHeight="52.0" prefWidth="125.0" style="-fx-background-radius: 15; -fx-background-color: #FCC8D1;" text="menu">
          <font>
             <Font name="Arial" size="21.0" />
          </font>
