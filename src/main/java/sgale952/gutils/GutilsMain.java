@@ -19,7 +19,7 @@ public class GutilsMain extends Application {
         stage.show();
         stage.setResizable(false);
 
-        InputStream iconStream = getClass().getResourceAsStream("/sgale952/gutils/Image/icon.png");
+        InputStream iconStream = getClass().getResourceAsStream("Image/icon.png");
         Image image = new Image(iconStream);
         stage.getIcons().add(image);
     }
