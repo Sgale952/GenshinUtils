@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ScrollBar?>
 <?import javafx.scene.effect.Shadow?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -8,47 +10,65 @@
 <?import javafx.scene.paint.Color?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="405.0" maxWidth="670.0" minHeight="405.0" minWidth="670.0" prefHeight="405.0" prefWidth="670.0" style="-fx-background-color: FFFFFF;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sgale952.gutils.GeneratorController">
+<AnchorPane maxHeight="405.0" maxWidth="670.0" minHeight="405.0" minWidth="670.0" prefHeight="405.0" prefWidth="670.0" style="-fx-background-color: FFFFFF;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sgale952.gutils.controllers.GeneratorController">
    <children>
-      <Button layoutX="257.0" layoutY="235.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="169.0" style="-fx-background-radius: 15; -fx-background-color: #79BAC1;">
-         <font>
-            <Font name="Arial" size="21.0" />
-         </font>
-         <effect>
-            <Shadow blurType="GAUSSIAN" height="50.68" radius="24.747500000000002" width="50.31">
-               <color>
-                  <Color opacity="0.7175572514533997" />
-               </color>
-            </Shadow>
-         </effect>
-      </Button>
-      <Button layoutX="251.0" layoutY="227.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="169.0" style="-fx-background-radius: 15; -fx-background-color: #A6D0DD;" text="artifacts">
-         <font>
-            <Font name="Arial" size="21.0" />
-         </font>
-      </Button>
-      <ImageView fitHeight="142.0" fitWidth="131.0" layoutX="539.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../Image/Chongyun.png" />
-         </image>
-      </ImageView>
-      <Button layoutX="282.0" layoutY="324.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="125.0" style="-fx-background-radius: 15; -fx-background-color: #79BAC1;">
-         <font>
-            <Font name="Arial" size="21.0" />
-         </font>
-         <effect>
-            <Shadow blurType="GAUSSIAN" height="50.68" radius="24.747500000000002" width="50.31">
-               <color>
-                  <Color opacity="0.7175572514533997" />
-               </color>
-            </Shadow>
-         </effect>
-      </Button>
-      <Button layoutX="276.0" layoutY="316.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="125.0" style="-fx-background-radius: 15; -fx-background-color: #FCC8D1;" text="menu">
-         <font>
-            <Font name="Arial" size="21.0" />
-         </font>
-      </Button>
+      <AnchorPane fx:id="pane" layoutX="14.0" layoutY="117.0" prefHeight="549.0" prefWidth="577.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Button layoutX="210.0" layoutY="462.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="125.0" style="-fx-background-radius: 15; -fx-background-color: #FCC8D1;" text="купить">
+               <font>
+                  <Font name="Arial" size="21.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="112.0" fitWidth="110.0" layoutX="20.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/character/Kirara.png" />
+               </image>
+            </ImageView>
+            <CheckBox id="Kirara" fx:id="Kirara" layoutX="114.0" layoutY="18.0" mnemonicParsing="false" onAction="#kiraraCheck" prefHeight="17.0" prefWidth="3.0" />
+            <ImageView fitHeight="112.0" fitWidth="110.0" layoutX="163.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/character/Baizhu.png" />
+               </image>
+            </ImageView>
+            <CheckBox id="Baizhu" fx:id="Baizhu" layoutX="257.0" layoutY="18.0" mnemonicParsing="false" onAction="#baizhuCheck" prefHeight="17.0" prefWidth="14.0" />
+            <ImageView fitHeight="112.0" fitWidth="110.0" layoutX="305.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/character/Kaveh.png" />
+               </image>
+            </ImageView>
+            <CheckBox id="Kaveh" fx:id="Kaveh" layoutX="399.0" layoutY="18.0" mnemonicParsing="false" onAction="#kavehCheck" prefHeight="17.0" prefWidth="14.0" />
+            <ImageView fitHeight="112.0" fitWidth="110.0" layoutX="446.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/character/Mika.png" />
+               </image>
+            </ImageView>
+            <CheckBox id="Mika" fx:id="Mika" layoutX="540.0" layoutY="18.0" mnemonicParsing="false" onAction="#mikaCheck" prefHeight="17.0" prefWidth="14.0" />
+            <ImageView fitHeight="112.0" fitWidth="110.0" layoutX="21.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/character/Dehya.png" />
+               </image>
+            </ImageView>
+            <CheckBox id="Dehya" fx:id="Dehya" layoutX="115.0" layoutY="166.0" mnemonicParsing="false" onAction="#dehyaCheck" prefHeight="17.0" prefWidth="14.0" />
+            <ImageView fitHeight="112.0" fitWidth="110.0" layoutX="164.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/character/Alhaitham.png" />
+               </image>
+            </ImageView>
+            <CheckBox id="Alhaitham" fx:id="Alhaitham" layoutX="258.0" layoutY="166.0" mnemonicParsing="false" onAction="#alhaithamCheck" prefHeight="17.0" prefWidth="14.0" />
+            <ImageView fitHeight="112.0" fitWidth="110.0" layoutX="306.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/character/Yaoyao.png" />
+               </image>
+            </ImageView>
+            <CheckBox id="Yaoyao" fx:id="Yaoyao" layoutX="400.0" layoutY="166.0" mnemonicParsing="false" onAction="#yaoyaoCheck" prefHeight="17.0" prefWidth="14.0" />
+            <ImageView fitHeight="112.0" fitWidth="110.0" layoutX="447.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/character/Wanderer.png" />
+               </image>
+            </ImageView>
+            <CheckBox id="Wanderer" fx:id="Wanderer" layoutX="541.0" layoutY="166.0" mnemonicParsing="false" onAction="#wandererCheck" prefHeight="17.0" prefWidth="14.0" />
+         </children>
+      </AnchorPane>
       <Button layoutX="-8.0" layoutY="56.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="679.0" style="-fx-background-radius: 15; -fx-background-color: #79BAC1;">
          <font>
             <Font name="Arial" size="21.0" />
@@ -63,12 +83,51 @@
       </Button>
       <AnchorPane prefHeight="100.0" prefWidth="670.0" style="-fx-background-color: #F29727;">
          <children>
-            <ImageView fitHeight="38.0" fitWidth="44.0" layoutX="14.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../Image/back.png" />
-               </image>
-            </ImageView>
+            <Button layoutX="76.0" layoutY="28.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="169.0" style="-fx-background-radius: 15; -fx-background-color: #79BAC1;">
+               <font>
+                  <Font name="Arial" size="21.0" />
+               </font>
+               <effect>
+                  <Shadow blurType="GAUSSIAN" height="50.68" radius="24.747500000000002" width="50.31">
+                     <color>
+                        <Color opacity="0.7175572514533997" />
+                     </color>
+                  </Shadow>
+               </effect>
+            </Button>
+            <Button layoutX="70.0" layoutY="20.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="169.0" style="-fx-background-radius: 15; -fx-background-color: #A6D0DD;" text="artifacts">
+               <font>
+                  <Font name="Arial" size="21.0" />
+               </font>
+            </Button>
+            <Button layoutX="276.0" layoutY="28.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="125.0" style="-fx-background-radius: 15; -fx-background-color: #79BAC1;">
+               <font>
+                  <Font name="Arial" size="21.0" />
+               </font>
+               <effect>
+                  <Shadow blurType="GAUSSIAN" height="50.68" radius="24.747500000000002" width="50.31">
+                     <color>
+                        <Color opacity="0.7175572514533997" />
+                     </color>
+                  </Shadow>
+               </effect>
+            </Button>
+            <Button layoutX="270.0" layoutY="20.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="125.0" style="-fx-background-radius: 15; -fx-background-color: #FCC8D1;" text="menu">
+               <font>
+                  <Font name="Arial" size="21.0" />
+               </font>
+            </Button>
+            <Button fx:id="backButton" layoutX="7.0" layoutY="6.0" mnemonicParsing="false" onAction="#backButtonHandler" prefHeight="52.0" prefWidth="48.0" style="-fx-background-color: #F29727;">
+               <graphic>
+                  <ImageView accessibleRole="BUTTON" fitHeight="38.0" fitWidth="116.0" onMouseClicked="#backButtonHandler" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/back.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
          </children>
       </AnchorPane>
+      <ScrollBar fx:id="scroll" layoutX="640.0" layoutY="117.0" orientation="VERTICAL" prefHeight="250.0" prefWidth="16.0" />
    </children>
 </AnchorPane>
