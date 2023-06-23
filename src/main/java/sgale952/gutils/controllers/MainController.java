@@ -4,7 +4,6 @@ import java.io.IOException;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-import sgale952.gutils.controllers.Handlers;
 
 public class MainController {
 
