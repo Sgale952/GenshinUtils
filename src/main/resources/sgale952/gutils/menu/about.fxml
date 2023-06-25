@@ -20,7 +20,7 @@
       </Button>
       <ImageView fitHeight="232.0" fitWidth="211.0" layoutX="22.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@Image/Ayaka.gif" />
+            <Image url="@../image/Ayaka.gif" />
          </image>
       </ImageView>
       <Button fx:id="mainButton" layoutY="-8.0" mnemonicParsing="false" onAction="#mainButtonHandler" prefHeight="107.0" prefWidth="670.0" style="-fx-background-color: #E06469; -fx-background-radius: 1;" text="GenshinUtils" textAlignment="CENTER" textFill="#f1f3f4" underline="true">

@@ -1,4 +1,4 @@
-package sgale952.gutils;
+package sgale952.gutils.main;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -12,14 +12,14 @@ import java.io.InputStream;
 public class GutilsMain extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/sgale952/gutils/main.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/sgale952/gutils/menu/main.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 670, 405);
         stage.setTitle("GenshinUtils");
         stage.setScene(scene);
         stage.show();
         stage.setResizable(false);
 
-        InputStream iconStream = getClass().getResourceAsStream("Image/icon.png");
+        InputStream iconStream = getClass().getResourceAsStream("/sgale952/gutils/image/icon.png");
         Image image = new Image(iconStream);
         stage.getIcons().add(image);
     }

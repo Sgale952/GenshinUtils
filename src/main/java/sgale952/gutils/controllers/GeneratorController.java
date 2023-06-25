@@ -40,16 +40,16 @@ public class GeneratorController {
     Handlers handler = new Handlers();
 
     public void backButtonHandler() throws IOException {
-        handler.changeScene(backButton, "/sgale952/gutils/Generator/genMenu.fxml");
+        handler.changeScene(backButton, "/sgale952/gutils/generatorScene/genMenu.fxml");
     }
 
     public void generateButtonHandler(){
         if(characterCheckList.size()>=4){
             int[] characters = randTeam();
-            frame1.setImage(new Image("sgale952/gutils/Image/character/"+getCharacterFrame(characters[0])+".png"));
-            frame2.setImage(new Image("sgale952/gutils/Image/character/"+getCharacterFrame(characters[1])+".png"));
-            frame3.setImage(new Image("sgale952/gutils/Image/character/"+getCharacterFrame(characters[2])+".png"));
-            frame4.setImage(new Image("sgale952/gutils/Image/character/"+getCharacterFrame(characters[3])+".png"));
+            frame1.setImage(new Image("sgale952/gutils/image/character/" +getCharacterFrame(characters[0])+".png"));
+            frame2.setImage(new Image("sgale952/gutils/image/character/" +getCharacterFrame(characters[1])+".png"));
+            frame3.setImage(new Image("sgale952/gutils/image/character/" +getCharacterFrame(characters[2])+".png"));
+            frame4.setImage(new Image("sgale952/gutils/image/character/" +getCharacterFrame(characters[3])+".png"));
         }
     }
 

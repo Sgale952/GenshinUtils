@@ -12,35 +12,35 @@ public class MainController {
 
     Handlers handler = new Handlers();
     public void aboutButtonHandler() throws IOException {
-        handler.changeScene(aboutButton, "/sgale952/gutils/about.fxml");
+        handler.changeScene(aboutButton, "/sgale952/gutils/menu/about.fxml");
     }
 
     public void mainButtonHandler() throws IOException {
-        handler.changeScene(mainButton, "/sgale952/gutils/main.fxml");
+        handler.changeScene(mainButton, "/sgale952/gutils/menu/main.fxml");
     }
 
     public void calculatorButtonHandler() throws IOException {
-        handler.changeScene(calculatorButton, "/sgale952/gutils/Calculator/calcMenu.fxml");
+        handler.changeScene(calculatorButton, "/sgale952/gutils/calculatorScene/calcMenu.fxml");
     }
 
     public void generatorButtonHandler() throws IOException {
-        handler.changeScene(generatorButton, "/sgale952/gutils/Generator/genMenu.fxml");
+        handler.changeScene(generatorButton, "/sgale952/gutils/generatorScene/genMenu.fxml");
     }
 
     public void menuCalcButtonHandler() throws IOException {
-        handler.changeScene(menuCalcButton, "/sgale952/gutils/main.fxml");
+        handler.changeScene(menuCalcButton, "/sgale952/gutils/menu/main.fxml");
     }
 
     public void menuGenButtonHandler() throws IOException {
-        handler.changeScene(menuGenButton, "/sgale952/gutils/main.fxml");
+        handler.changeScene(menuGenButton, "/sgale952/gutils/menu/main.fxml");
     }
 
     public void teamGenButtonHandler() throws IOException {
-        handler.changeScene(teamGenButton, "/sgale952/gutils/Generator/genCharacter.fxml");
+        handler.changeScene(teamGenButton, "/sgale952/gutils/generatorScene/genCharacter.fxml");
     }
 
     public void critValueCalcButtonHandler() throws IOException {
-        handler.changeScene(critValueCalcButton, "/sgale952/gutils/Calculator/critValue.fxml");
+        handler.changeScene(critValueCalcButton, "/sgale952/gutils/calculatorScene/critValue.fxml");
     }
 
 }

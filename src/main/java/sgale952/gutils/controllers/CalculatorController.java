@@ -19,7 +19,7 @@ public class CalculatorController {
     Handlers handler = new Handlers();
 
     public void backButtonHandler() throws IOException {
-        handler.changeScene(backButton, "/sgale952/gutils/Calculator/calcMenu.fxml");
+        handler.changeScene(backButton, "/sgale952/gutils/calculatorScene/calcMenu.fxml");
     }
 
     public void CalculateButtonHandler(){

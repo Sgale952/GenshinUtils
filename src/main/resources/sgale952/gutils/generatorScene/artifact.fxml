@@ -47,7 +47,7 @@
                <graphic>
                   <ImageView accessibleRole="BUTTON" fitHeight="38.0" fitWidth="116.0" onMouseClicked="#backButtonHandler" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../Image/back.png" />
+                        <Image url="@../image/back.png" />
                      </image>
                   </ImageView>
                </graphic></Button>
@@ -57,7 +57,7 @@
          <children>
             <ImageView fitHeight="174.0" fitWidth="158.0" layoutX="14.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/InitiateFlower.png" />
+                  <Image url="@../image/InitiateFlower.png" />
                </image>
             </ImageView>
          </children>

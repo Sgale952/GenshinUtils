@@ -17,42 +17,42 @@
          <children>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="25.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Kirara.png" />
+                  <Image url="@../image/character/Kirara.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="150.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Baizhu.png" />
+                  <Image url="@../image/character/Baizhu.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="135.0" fitWidth="125.0" layoutX="275.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Kaveh.png" />
+                  <Image url="@../image/character/Kaveh.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="408.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Mika.png" />
+                  <Image url="@../image/character/Mika.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="25.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Dehya.png" />
+                  <Image url="@../image/character/Dehya.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="150.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Yaoyao.png" />
+                  <Image url="@../image/character/Yaoyao.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="135.0" fitWidth="125.0" layoutX="275.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Alhaitham.png" />
+                  <Image url="@../image/character/Alhaitham.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="408.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Wanderer.png" />
+                  <Image url="@../image/character/Wanderer.png" />
                </image>
             </ImageView>
             <CheckBox fx:id="Dehya" layoutX="128.0" layoutY="149.0" mnemonicParsing="false" onAction="#DehyaCheck" prefHeight="17.0" prefWidth="14.0" />
@@ -65,42 +65,42 @@
             <CheckBox fx:id="Mika" layoutX="508.0" layoutY="7.0" mnemonicParsing="false" onAction="#MikaCheck" prefHeight="17.0" prefWidth="14.0" />
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="21.0" layoutY="297.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Faruzan.png" />
+                  <Image url="@../image/character/Faruzan.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="146.0" layoutY="297.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Layla.png" />
+                  <Image url="@../image/character/Layla.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="135.0" fitWidth="125.0" layoutX="271.0" layoutY="297.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Nahida.png" />
+                  <Image url="@../image/character/Nahida.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="404.0" layoutY="297.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Nilou.png" />
+                  <Image url="@../image/character/Nilou.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="21.0" layoutY="438.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Cyno.png" />
+                  <Image url="@../image/character/Cyno.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="146.0" layoutY="438.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Candace.png" />
+                  <Image url="@../image/character/Candace.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="135.0" fitWidth="125.0" layoutX="271.0" layoutY="438.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Dori.png" />
+                  <Image url="@../image/character/Dori.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="404.0" layoutY="438.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Collei.png" />
+                  <Image url="@../image/character/Collei.png" />
                </image>
             </ImageView>
             <CheckBox fx:id="Cyno" layoutX="124.0" layoutY="430.0" mnemonicParsing="false" onAction="#CynoCheck" prefHeight="17.0" prefWidth="14.0" />
@@ -113,42 +113,42 @@
             <CheckBox fx:id="Nilou" layoutX="504.0" layoutY="289.0" mnemonicParsing="false" onAction="#NilouCheck" prefHeight="17.0" prefWidth="14.0" />
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="21.0" layoutY="578.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Tighnari.png" />
+                  <Image url="@../image/character/Tighnari.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="146.0" layoutY="578.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Heizou.png" />
+                  <Image url="@../image/character/Heizou.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="135.0" fitWidth="125.0" layoutX="271.0" layoutY="578.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Shinobu.png" />
+                  <Image url="@../image/character/Shinobu.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="404.0" layoutY="578.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Yelan.png" />
+                  <Image url="@../image/character/Yelan.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="21.0" layoutY="720.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Ayato.png" />
+                  <Image url="@../image/character/Ayato.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="146.0" layoutY="720.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Miko.png" />
+                  <Image url="@../image/character/Miko.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="135.0" fitWidth="125.0" layoutX="271.0" layoutY="720.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Shenhe.png" />
+                  <Image url="@../image/character/Shenhe.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="404.0" layoutY="720.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/YunJin.png" />
+                  <Image url="@../image/character/YunJin.png" />
                </image>
             </ImageView>
             <CheckBox fx:id="Ayato" layoutX="124.0" layoutY="712.0" mnemonicParsing="false" onAction="#AyatoCheck" prefHeight="17.0" prefWidth="14.0" />
@@ -161,42 +161,42 @@
             <CheckBox fx:id="Yelan" layoutX="504.0" layoutY="570.0" mnemonicParsing="false" onAction="#YelanCheck" prefHeight="17.0" prefWidth="14.0" />
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="21.0" layoutY="860.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Gorou.png" />
+                  <Image url="@../image/character/Gorou.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="146.0" layoutY="860.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Itto.png" />
+                  <Image url="@../image/character/Itto.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="135.0" fitWidth="125.0" layoutX="271.0" layoutY="860.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Thoma.png" />
+                  <Image url="@../image/character/Thoma.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="404.0" layoutY="860.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Kokomi.png" />
+                  <Image url="@../image/character/Kokomi.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="21.0" layoutY="1001.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Raiden.png" />
+                  <Image url="@../image/character/Raiden.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="146.0" layoutY="1001.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Sara.png" />
+                  <Image url="@../image/character/Sara.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="135.0" fitWidth="125.0" layoutX="271.0" layoutY="1001.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Aloy.png" />
+                  <Image url="@../image/character/Aloy.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="404.0" layoutY="1001.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Yoimiya.png" />
+                  <Image url="@../image/character/Yoimiya.png" />
                </image>
             </ImageView>
             <CheckBox fx:id="Raiden" layoutX="124.0" layoutY="993.0" mnemonicParsing="false" onAction="#RaidenCheck" prefHeight="17.0" prefWidth="14.0" />
@@ -209,42 +209,42 @@
             <CheckBox fx:id="Kokomi" layoutX="504.0" layoutY="852.0" mnemonicParsing="false" onAction="#KokomiCheck" prefHeight="17.0" prefWidth="14.0" />
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="21.0" layoutY="1141.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Sayu.png" />
+                  <Image url="@../image/character/Sayu.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="146.0" layoutY="1141.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Ayaka.png" />
+                  <Image url="@../image/character/Ayaka.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="135.0" fitWidth="125.0" layoutX="271.0" layoutY="1141.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Kazuha.png" />
+                  <Image url="@../image/character/Kazuha.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="404.0" layoutY="1141.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Eula.png" />
+                  <Image url="@../image/character/Eula.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="21.0" layoutY="1282.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Yanfei.png" />
+                  <Image url="@../image/character/Yanfei.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="146.0" layoutY="1282.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Rosaria.png" />
+                  <Image url="@../image/character/Rosaria.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="135.0" fitWidth="125.0" layoutX="271.0" layoutY="1282.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Hutao.png" />
+                  <Image url="@../image/character/Hutao.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="404.0" layoutY="1282.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Xiao.png" />
+                  <Image url="@../image/character/Xiao.png" />
                </image>
             </ImageView>
             <CheckBox fx:id="Yanfei" layoutX="124.0" layoutY="1274.0" mnemonicParsing="false" onAction="#YanfeiCheck" prefHeight="17.0" prefWidth="14.0" />
@@ -257,42 +257,42 @@
             <CheckBox fx:id="Eula" layoutX="504.0" layoutY="1133.0" mnemonicParsing="false" onAction="#EulaCheck" prefHeight="17.0" prefWidth="14.0" />
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="21.0" layoutY="1424.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Ganyu.png" />
+                  <Image url="@../image/character/Ganyu.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="146.0" layoutY="1424.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Albedo.png" />
+                  <Image url="@../image/character/Albedo.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="135.0" fitWidth="125.0" layoutX="271.0" layoutY="1424.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Zhongli.png" />
+                  <Image url="@../image/character/Zhongli.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="404.0" layoutY="1424.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Xinyan.png" />
+                  <Image url="@../image/character/Xinyan.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="21.0" layoutY="1565.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Tartaglia.png" />
+                  <Image url="@../image/character/Tartaglia.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="146.0" layoutY="1565.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Diona.png" />
+                  <Image url="@../image/character/Diona.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="135.0" fitWidth="125.0" layoutX="271.0" layoutY="1565.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Jean.png" />
+                  <Image url="@../image/character/Jean.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="404.0" layoutY="1565.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Lisa.png" />
+                  <Image url="@../image/character/Lisa.png" />
                </image>
             </ImageView>
             <CheckBox fx:id="Tartaglia" layoutX="124.0" layoutY="1557.0" mnemonicParsing="false" onAction="#TartagliaCheck" prefHeight="17.0" prefWidth="14.0" />
@@ -305,42 +305,42 @@
             <CheckBox fx:id="Xinyan" layoutX="504.0" layoutY="1416.0" mnemonicParsing="false" onAction="#XinyanCheck" prefHeight="17.0" prefWidth="14.0" />
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="21.0" layoutY="1704.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Barbara.png" />
+                  <Image url="@../image/character/Barbara.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="146.0" layoutY="1704.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Kaeya.png" />
+                  <Image url="@../image/character/Kaeya.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="135.0" fitWidth="125.0" layoutX="271.0" layoutY="1704.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Diluc.png" />
+                  <Image url="@../image/character/Diluc.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="404.0" layoutY="1704.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Razor.png" />
+                  <Image url="@../image/character/Razor.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="21.0" layoutY="1845.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Amber.png" />
+                  <Image url="@../image/character/Amber.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="146.0" layoutY="1845.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Venti.png" />
+                  <Image url="@../image/character/Venti.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="135.0" fitWidth="125.0" layoutX="271.0" layoutY="1845.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Xiangling.png" />
+                  <Image url="@../image/character/Xiangling.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="404.0" layoutY="1845.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Beidou.png" />
+                  <Image url="@../image/character/Beidou.png" />
                </image>
             </ImageView>
             <CheckBox fx:id="Amber" layoutX="124.0" layoutY="1837.0" mnemonicParsing="false" onAction="#AmberCheck" prefHeight="17.0" prefWidth="14.0" />
@@ -353,42 +353,42 @@
             <CheckBox fx:id="Razor" layoutX="504.0" layoutY="1696.0" mnemonicParsing="false" onAction="#RazorCheck" prefHeight="17.0" prefWidth="14.0" />
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="17.0" layoutY="1986.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Xingqiu.png" />
+                  <Image url="@../image/character/Xingqiu.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="142.0" layoutY="1986.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Ningguang.png" />
+                  <Image url="@../image/character/Ningguang.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="135.0" fitWidth="125.0" layoutX="267.0" layoutY="1986.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Klee.png" />
+                  <Image url="@../image/character/Klee.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="400.0" layoutY="1986.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Fischl.png" />
+                  <Image url="@../image/character/Fischl.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="15.0" layoutY="2127.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Bennett.png" />
+                  <Image url="@../image/character/Bennett.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="140.0" layoutY="2127.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Noelle.png" />
+                  <Image url="@../image/character/Noelle.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="135.0" fitWidth="125.0" layoutX="265.0" layoutY="2127.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Qiqi.png" />
+                  <Image url="@../image/character/Qiqi.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="398.0" layoutY="2127.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Chongyun.png" />
+                  <Image url="@../image/character/Chongyun.png" />
                </image>
             </ImageView>
             <CheckBox fx:id="Bennett" layoutX="118.0" layoutY="2119.0" mnemonicParsing="false" onAction="#BennettCheck" prefHeight="17.0" prefWidth="14.0" />
@@ -401,17 +401,17 @@
             <CheckBox fx:id="Fischl" layoutX="500.0" layoutY="1978.0" mnemonicParsing="false" onAction="#FischlCheck" prefHeight="17.0" prefWidth="14.0" />
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="17.0" layoutY="2268.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Mona.png" />
+                  <Image url="@../image/character/Mona.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="142.0" layoutY="2268.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Keqing.png" />
+                  <Image url="@../image/character/Keqing.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="135.0" fitWidth="125.0" layoutX="267.0" layoutY="2268.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Sucrose.png" />
+                  <Image url="@../image/character/Sucrose.png" />
                </image>
             </ImageView>
             <CheckBox fx:id="Mona" layoutX="120.0" layoutY="2260.0" mnemonicParsing="false" onAction="#MonaCheck" prefHeight="17.0" prefWidth="14.0" />
@@ -419,7 +419,7 @@
             <CheckBox fx:id="Keqing" layoutX="245.0" layoutY="2260.0" mnemonicParsing="false" onAction="#KeqingCheck" prefHeight="17.0" prefWidth="14.0" />
             <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="400.0" layoutY="2272.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/Traveler.png" />
+                  <Image url="@../image/character/Traveler.png" />
                </image>
             </ImageView>
             <CheckBox fx:id="Traveler" layoutX="500.0" layoutY="2264.0" mnemonicParsing="false" onAction="#TravelerCheck" prefHeight="17.0" prefWidth="14.0" />
@@ -436,22 +436,22 @@
          <children>
             <ImageView fx:id="frame4" fitHeight="110.0" fitWidth="83.0" layoutX="565.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/none.png" />
+                  <Image url="@../image/character/none.png" />
                </image>
             </ImageView>
             <ImageView fx:id="frame3" fitHeight="110.0" fitWidth="83.0" layoutX="482.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/none.png" />
+                  <Image url="@../image/character/none.png" />
                </image>
             </ImageView>
             <ImageView fx:id="frame2" fitHeight="110.0" fitWidth="83.0" layoutX="401.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/none.png" />
+                  <Image url="@../image/character/none.png" />
                </image>
             </ImageView>
             <ImageView fx:id="frame1" fitHeight="110.0" fitWidth="83.0" layoutX="318.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Image/character/none.png" />
+                  <Image url="@../image/character/none.png" />
                </image>
             </ImageView>
             <Button layoutX="112.0" layoutY="29.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="169.0" style="-fx-background-radius: 15; -fx-background-color: #79BAC1;">
@@ -487,7 +487,7 @@
                <graphic>
                   <ImageView accessibleRole="BUTTON" fitHeight="38.0" fitWidth="116.0" onMouseClicked="#backButtonHandler" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../Image/back.png" />
+                        <Image url="@../image/back.png" />
                      </image>
                   </ImageView>
                </graphic></Button>

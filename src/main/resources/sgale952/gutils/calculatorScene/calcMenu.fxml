@@ -51,7 +51,7 @@
       </Button>
       <ImageView fitHeight="216.0" fitWidth="186.0" layoutX="506.0" layoutY="253.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../Image/Faruzan.jpg" />
+            <Image url="@../image/Faruzan.jpg" />
          </image>
       </ImageView>
       <Button layoutX="282.0" layoutY="324.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="125.0" style="-fx-background-radius: 15; -fx-background-color: #79BAC1;">

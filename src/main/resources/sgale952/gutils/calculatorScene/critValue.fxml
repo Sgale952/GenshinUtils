@@ -32,7 +32,7 @@
                <graphic>
                   <ImageView accessibleRole="BUTTON" fitHeight="38.0" fitWidth="116.0" onMouseClicked="#backButtonHandler" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../Image/back.png" />
+                        <Image url="@../image/back.png" />
                      </image>
                   </ImageView>
                </graphic>

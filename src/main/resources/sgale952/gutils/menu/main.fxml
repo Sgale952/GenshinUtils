@@ -50,7 +50,7 @@
    </Button>
    <ImageView fitHeight="142.0" fitWidth="131.0" layoutX="533.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
       <image>
-         <Image url="@Image/Nilou.jpg" />
+         <Image url="@../image/Nilou.jpg" />
       </image>
    </ImageView>
 </AnchorPane>
