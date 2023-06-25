@@ -8,7 +8,7 @@ import javafx.scene.control.Button;
 public class MainController {
 
     @FXML
-    private Button aboutButton, mainButton, calculatorButton, generatorButton, menuCalcButton, menuGenButton, teamGenButton;
+    private Button aboutButton, mainButton, calculatorButton, critValueCalcButton, generatorButton, menuCalcButton, menuGenButton, teamGenButton;
 
     Handlers handler = new Handlers();
     public void aboutButtonHandler() throws IOException {
@@ -37,6 +37,10 @@ public class MainController {
 
     public void teamGenButtonHandler() throws IOException {
         handler.changeScene(teamGenButton, "/sgale952/gutils/Generator/genCharacter.fxml");
+    }
+
+    public void critValueCalcButtonHandler() throws IOException {
+        handler.changeScene(critValueCalcButton, "/sgale952/gutils/Calculator/critValue.fxml");
     }
 
 }

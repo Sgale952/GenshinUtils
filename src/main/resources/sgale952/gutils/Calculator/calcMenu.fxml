@@ -27,7 +27,7 @@
             </Shadow>
          </effect>
       </Button>
-      <Button layoutX="251.0" layoutY="227.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="169.0" style="-fx-background-radius: 15; -fx-background-color: #A6D0DD;" text="calculator">
+      <Button layoutX="251.0" layoutY="227.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="169.0" style="-fx-background-radius: 15; -fx-background-color: #A6D0DD;" text="Export">
          <font>
             <Font name="Arial" size="21.0" />
          </font>
@@ -44,7 +44,7 @@
             </Shadow>
          </effect>
       </Button>
-      <Button layoutX="251.0" layoutY="143.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="169.0" style="-fx-background-radius: 15; -fx-background-color: #A6D0DD;" text="generator">
+      <Button fx:id="critValueCalcButton" layoutX="251.0" layoutY="143.0" mnemonicParsing="false" onAction="#critValueCalcButtonHandler" prefHeight="52.0" prefWidth="169.0" style="-fx-background-radius: 15; -fx-background-color: #A6D0DD;" text="CritValue">
          <font>
             <Font name="Arial" size="21.0" />
          </font>
