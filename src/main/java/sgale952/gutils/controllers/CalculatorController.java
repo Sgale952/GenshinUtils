@@ -6,6 +6,9 @@ import javafx.scene.control.RadioButton;
 import javafx.scene.control.TextField;
 
 import java.io.IOException;
+import java.math.BigDecimal;
+import java.math.MathContext;
+import java.math.RoundingMode;
 
 public class CalculatorController {
 
@@ -23,15 +26,19 @@ public class CalculatorController {
     }
 
     public void CalculateButtonHandler(){
+        MathContext context = new MathContext(3, RoundingMode.HALF_UP);
+        double CR = Double.parseDouble(critRateField.getText());
+        double CD = Double.parseDouble(critDamageField.getText());
+
         if(critValueButton.isSelected()){
-            double CR = Double.parseDouble(critRateField.getText());
-            double CD = Double.parseDouble(critDamageField.getText());
-            resultField.setText(String.valueOf(2*CR+CD));
+            BigDecimal value = new BigDecimal(CR*2+CD, context);
+            resultField.setText(String.valueOf(value));
         }
         else if(critRatioButton.isSelected()){
-            double CR = Double.parseDouble(critRateField.getText())/100;
-            double CD = Double.parseDouble(critDamageField.getText())/100;
-            resultField.setText(String.valueOf(1+CR*CD));
+            BigDecimal ratio = new BigDecimal(1+(CR/100)*(CD/100), context);
+            resultField.setText(String.valueOf(ratio));
         }
     }
 }
+
+

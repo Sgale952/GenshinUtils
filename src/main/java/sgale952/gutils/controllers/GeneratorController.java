@@ -40,6 +40,7 @@ public class GeneratorController {
     Handlers handler = new Handlers();
 
     public void backButtonHandler() throws IOException {
+        characterCheckList.clear();
         handler.changeScene(backButton, "/sgale952/gutils/generatorScene/genMenu.fxml");
     }
 
